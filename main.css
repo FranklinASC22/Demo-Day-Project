@@ -1,0 +1,95 @@
+body{
+    font-family: Helvetica;
+    
+}
+#Header{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 200px;
+}
+h1{
+    font-size: 50px ;
+    text-align: center;
+    color: gold;
+}
+h2{
+    font-size: 40px; 
+    text-align: center;
+    color: gold;
+}
+h4{
+    font-size: 20px; 
+    text-align: center;
+    color: rgb(118, 216, 118);
+}
+p{
+    font-size: 20px;
+}
+/* Calculation*/
+.Inputs{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#hey{
+    display: flex;
+    justify-content: center;
+}
+/* Button*/
+button {
+    width: 150px;
+    padding: 5px;
+   
+}
+#space{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#Output {
+    font-size: 20px;
+    background-color:rgb(118, 216, 118);
+}
+
+/* dropdown */
+nav {
+    background-color: rgb(118, 216, 118);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.drop-element {
+    color: rgb(0, 0, 0);
+    background-color:transparent;
+    font-size: 50px;
+}
+
+.about-content {
+    display: none; /* hides the dropdown until hover over */
+    position: absolute;
+    background-color: yellow; /* set background of the dropdown */
+    min-width: 100px;
+    padding: 10px;
+}
+
+.about-content a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.about-content a:hover {
+    color: red;
+}
+
+.dropdown:hover .about-content {
+    display:block;
+    font-size: 16px;
+}
+
+/* end of drop down menu */
